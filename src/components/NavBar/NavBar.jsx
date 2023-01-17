@@ -18,14 +18,14 @@ export default function NavBar() {
         <div className={`links ${clicked ? "active" : ""}`}>
           <a
             onClick={clicked ? handleClick : !clicked ? "" : handleClick}
-            href="#about"
+            href="/#about"
           >
             {" "}
             Sobre mi{" "}
           </a>
           <a
             onClick={clicked ? handleClick : !clicked ? "" : handleClick}
-            href="/projects"
+            href="/more-projects"
           >
             {" "}
             Proyectos{" "}
@@ -39,7 +39,7 @@ export default function NavBar() {
           </a>
           <a
             onClick={clicked ? handleClick : !clicked ? "" : handleClick}
-            href="#hd"
+            href="/blog"
           >
             {" "}
             Blog{" "}
@@ -61,10 +61,11 @@ const NavContainer = styled.nav`
   align-items: center;
   justify-content: space-around;
   .div {
-    width: 50%;
+    width: 60%;
     display: flex;
     align-items: flex-start;
-    padding:1rem;
+    padding:0.5rem;
+    margin: 0;
     @media (min-width: 768px) {
       width: 40%;
     }

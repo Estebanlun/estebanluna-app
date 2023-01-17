@@ -41,8 +41,8 @@ export default function Footer() {
 const Pie = styled.span`
     width: 100%;
     bottom: 0; 
-    position: absolute;
-    margin-top: 0;
+    position: relative;
+    margin-top: 0;    
   .pieContainer {
     background-color: #0b0b0d;
     display: flex;

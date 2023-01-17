@@ -6,32 +6,28 @@ import estudioluna from "../../assets/renders/estudioluna.png";
 import techskills from "../../assets/renders/techskills.png";
 import softskills from "../../assets/renders/softskills.png";
 import contacto from "../../assets/renders/contacto.png";
-import idioma from "../../assets/renders/contacto.png";
-import cv from "../../assets/renders/contacto.png";
-import proyectos from "../../assets/renders/contacto.png";
+import idioma from "../../assets/renders/idioma.png";
+import cv from "../../assets/renders/cv.png";
+import proyectos from "../../assets/renders/projects.png";
 
 export default function Section() {
   return (
     <Sec id="about">
-      <Squere img={estudioluna} title="Experiencia Laboral" />
-      <Squere img={estudios} title="Experiencia Academica" />
-      <Squere img={techskills} title="Tech Skills" />
-      <Squere img={softskills} title="Soft Skills" />
-      <Squere img={contacto} title="Contacto" />
-      <Squere img={idioma} title="Idioma" />
-      <Squere img={cv} title="Curriculum" />
-      <Squere img={proyectos} title="Mas Proyectos" />
-      <Squere img={proyectos} title="Mas Proyectos" />
-      <Squere img={proyectos} title="Mas Proyectos" />
-      <Squere img={proyectos} title="Mas Proyectos" />
-      <Squere img={proyectos} title="Mas Proyectos" />
+      <Squere li="work-experience" img={estudioluna} title="Experiencia Laboral" />
+      <Squere li="academic-experience" img={estudios} title="Experiencia Academica" />
+      <Squere li="tech-skills" img={techskills} title="Tech Skills" />
+      <Squere li="soft-skills" img={softskills} title="Soft Skills" />
+      <Squere li="contact" img={contacto} title="Contacto" />
+      <Squere li="lenguage" img={idioma} title="Idioma" />
+      <Squere li="cv" img={cv} title="Curriculum" />
+      <Squere li="more-projects" img={proyectos} title="Mas Proyectos" />
     </Sec>
   );
 }
 
 const Sec = styled.div`
   width: 100%;
-  height: 125rem;
+  min-height: 125rem;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     180deg,
