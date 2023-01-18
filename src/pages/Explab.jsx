@@ -10,35 +10,53 @@ export default function Explab() {
       <span className="span">
         <h1 className="title"> Experiencia Laboral </h1>
       </span>
+
       {/* Expositor de Empleos */}
-      <div className="div-two">
+      <div className="div">
+
         {/* Primer trabajo */}
-        <div className="text-container">
+        <div className="div-one">
           <p className="text">
-            Ademas, trabajé un mes (En temporada de ventas) en un local
-            comercial dedicado a la venta de juguetes, ropa, y juegos didácticos
-            llamado{" "}
+            &nbsp;&nbsp;&nbsp;Alejado del mundo de la programación y desarrollo,
+            trabajo desde mayo 2020 en un estudio contable (Luna&2Asociados),
+            desarrollé tareas de: <br /> <br />
+            &nbsp;&nbsp;&nbsp;Atención al cliente, Liquidación de sueldos y
+            Cargas sociales, Liquidación de expensas, Administración de
+            Consorcios, Liquidación de impuestos nacionales, provinciales y
+            municipales, Manejo de caja, entre otros. <br />
+            &nbsp;&nbsp;&nbsp;En un buen ambiente laboral y con un muy buen
+            equipo de trabajo, aprendi muchas cosas relevantes relacionadas a el
+            trabajo en grupo, a ejecutar ordenes aficientemente, a ser honesto y
+            responsable en el area que me tocaba.
+          </p>
+          <video
+            className="vid"
+            autoPlay
+            muted
+            loop
+            src={video}
+            alt="No hay video"
+          />
+        </div>
+
+        {/* Segundo trabajo */}
+        <div className="div-two">
+          <p className="text">
+            &nbsp;&nbsp;&nbsp;Ademas, trabajé un mes (En temporada de ventas) en
+            un local comercial dedicado a la venta de juguetes, ropa, y juegos
+            didácticos llamado{" "}
             <a className="link" href="https://www.instagram.com/picapiedratuc/">
               Pica Piedra
             </a>
-            . Me ocupe de la caja, atención al cliente y los cobros.
+            . Me ocupe de la caja, atención al cliente y los cobros. Tuve la
+            oportunidad de trabajar con un hermoso equipo, y aprender
+            habilidades nuevas como los cobros atraves de tarjetas de debito,
+            credito o transferencias. Aprendi a organizar y ordenar la caja de
+            ingresos y egresos, en un excel. Aprendi a crear y gestionar un
+            inventario de stock de juguetes. Y mejore mis habilidades en ventas.
           </p>
+          <img className="img" src={img} alt="No se pudo cargar la imagen" />
         </div>
-        <img className="img" src={img} alt="No se pudo cargar la imagen" />
-
-        {/* Segundo trabajo */}
-        <div className="text-container">
-          <p className="text">
-            Alejado del mundo de la programación y desarrollo, trabajé un año y
-            medio en un estudio contable (Luna&Asociados), desarrollando tareas
-            de: <br /> <br />
-            Atención al cliente, Liquidación de sueldos y Cargas sociales,
-            Liquidación de expensas, Administración de Consorcios, Liquidación
-            de impuestos nacionales, provinciales y municipales, Manejo de caja,
-            entre otros.
-          </p>
-        </div>
-        <video className="vid" autoPlay muted loop src={video} alt="" />
       </div>
     </Exp>
   );
@@ -59,6 +77,8 @@ const Exp = styled.div`
     rgba(5, 89, 174, 1) 90%,
     rgba(2, 0, 36, 1) 100%
   );
+
+  /* Span contenedor con Titulo adentro */
   .span {
     display: flex;
     text-align: center;
@@ -79,34 +99,139 @@ const Exp = styled.div`
       margin: 0.3rem;
     }
   }
-  .div-two {
+
+  .div {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 1.5rem;
-    .text-container {
+    gap: 1rem;
+
+    .div-one {
+      display: flex;
+      flex-direction: column-reverse;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
       width: 90%;
       color: white;
+      gap: 2rem;
       margin: 1.5rem;
       font-size: 1.5rem;
-      .text {
-        .link {
-          color: rgba(5, 89, 174, 1);
+      .vid {
+        width: 60%;
+        height: 100%;
+        border-radius: 10px;
+      }
+    }
+
+    .div-two {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      color: white;
+      gap: 2rem;
+      margin: 1.3rem;
+      font-size: 1.5rem;
+      .img {
+        width: 60%;
+        height: 100%;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .text {
+    .link {
+      color: rgba(5, 89, 174, 1);
+    }
+  }
+
+  /* Tablet */
+  @media (min-width: 768px) {
+    .span {
+      .title {
+        font-size: 3rem;
+      }
+    }
+
+    .div {
+      width: 100%;
+      padding: 1rem;
+
+      .div-one {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        border: 1px #fff solid;
+        border-radius: 5px;
+        padding: 2rem;
+        .vid {
+          width: 25%;
+          height: auto;
+        }
+      }
+
+      .div-two {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 1px #fff solid;
+        border-radius: 5px;
+        padding: 2rem;
+        .img {
+          width: 25%;
+          height: auto;
         }
       }
     }
-    .vid {
-      display: flex;
-      width: 100%;
-      height: 20rem;
+
+    .text {
+      width: 50%;
+      text-align: start;
+      justify-content: start;
+      align-items: flex-start;
     }
-    .img {
-      display: flex;
-      width: 60%;
-      height: auto;
+  }
+
+  @media (min-width: 1024px) {
+    .span {
+      .title {
+        font-size: 3.5rem;
+      }
+    }
+
+    .div {
+      width: 90%;
+      gap: 0.2rem;
+
+      .div-one {
+        height: 25rem;
+        .vid {
+          width: 30%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .div-two {
+        height: 25rem;
+        .img {
+          width: 30%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+
+    .text {
+      width: 70%;
+      font-size: 1.2rem;
     }
   }
 `;

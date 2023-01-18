@@ -14,12 +14,12 @@ export default function Section() {
   return (
     <Sec id="about">
       <Squere li="work-experience" img={estudioluna} title="Experiencia Laboral" />
-      <Squere li="academic-experience" img={estudios} title="Experiencia Academica" />
+      <Squere li="academic-experience" img={estudios} title="Experiencia Académica" />
       <Squere li="tech-skills" img={techskills} title="Tech Skills" />
       <Squere li="soft-skills" img={softskills} title="Soft Skills" />
       <Squere li="contact" img={contacto} title="Contacto" />
       <Squere li="lenguage" img={idioma} title="Idioma" />
-      <Squere li="cv" img={cv} title="Curriculum" />
+      <Squere li="cv" img={cv} title="Currículum" />
       <Squere li="more-projects" img={proyectos} title="Mas Proyectos" />
     </Sec>
   );
