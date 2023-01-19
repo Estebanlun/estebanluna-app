@@ -3,6 +3,7 @@ import styled from "styled-components";
 import video from "../assets/videos/work.mp4";
 import img from "../assets/images/picapiedra.jpg";
 
+
 export default function Explab() {
   return (
     <Exp>
