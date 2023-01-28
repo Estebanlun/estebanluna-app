@@ -3,6 +3,8 @@ import styled from "styled-components";
 import basics from "../assets/renders/basics.png";
 import frontend from "../assets/renders/frontend.png";
 import backend from "../assets/renders/backend.png";
+import others from "../assets/renders/others.png";
+import prox from "../assets/renders/prox.png";
 
 export default function Techsk() {
   return (
@@ -14,7 +16,7 @@ export default function Techsk() {
 
       {/* Expositor de SoftSkills */}
       <div className="div">
-        {/* Tech Skills Front-end */}
+        {/* Tech Skills Basicas */}
         <div className="div-one">
           <div className="div-one-box">
             <h2> Basicas </h2>
@@ -27,63 +29,61 @@ export default function Techsk() {
         </div>
 
         {/* Tech Skills Front-end */}
-        <div className="div-one">
+        <div className="div-two">
           <div className="div-one-box">
             <h2> Front-End </h2>
             <p className="text">
-              &nbsp;&nbsp;&nbsp; Dentro del Front-end aprendi a manejar freamworks y 
-              tecnologias como: React, Redux, ReactNative, Boostrap, TaiwindCSS, Sass y Less
+              &nbsp;&nbsp;&nbsp; Dentro del Front-end aprendi a manejar
+              freamworks y tecnologias como: React, Redux, Boostrap, TaiwindCSS,
+              Sass, Less y un poco de ReactNative
             </p>
           </div>
           <img className="img" src={frontend} alt="Sin Imagen" />
         </div>
 
-        {/* Tech Skills Front-end */}
+        {/* Tech Skills Back-end y DB */}
         <div className="div-one">
           <div className="div-one-box">
-            <h2> Back-End  y Data Base</h2>
+            <h2> Back-End y Data Base</h2>
             <p className="text">
-              &nbsp;&nbsp;&nbsp; Las tecnologias que manejo dentro del backend son: NodeJs, Express y Sequelize.<br/>
-              &nbsp;&nbsp;&nbsp; Y en las bases de datos se manejar PosgessSQL, y Firebase para bases no SQL (Relacionales)
+              &nbsp;&nbsp;&nbsp; Las tecnologias que manejo dentro del backend
+              son: NodeJs, Express y Sequelize.
+              <br />
+              &nbsp;&nbsp;&nbsp; Y en las bases de datos se manejar PosgessSQL,
+              y Firebase para bases no SQL (Relacionales)
             </p>
           </div>
           <img className="img" src={backend} alt="Sin Imagen" />
         </div>
 
-        {/* Tech Skills Front-end */}
-        <div className="div-one">
+        {/* Tech Skills Otras Herramientas */}
+        <div className="div-two">
           <div className="div-one-box">
-            <h2> Basicas </h2>
+            <h2> Otras Tecnologias </h2>
             <p className="text">
-              &nbsp;&nbsp;&nbsp; Las tecnologias basicas que aprendi a manejar
-              son HTML, CSS y Javascript
+              &nbsp;&nbsp;&nbsp; Otras herramientas que manejo y no menos
+              importantes que las anteriores son: Git, GitHub, el gestor de
+              datos Npm, Postman, y un poco de Typescript
             </p>
           </div>
-          <img className="img" src={frontend} alt="Sin Imagen" />
+          <img className="img" src={others} alt="Sin Imagen" />
         </div>
 
-         {/* Tech Skills Front-end */}
-         <div className="div-one">
+        {/* Tech Skills Proximamente */}
+        <div className="div-one">
           <div className="div-one-box">
-            <h2> Basicas </h2>
+            <h2> Proximamente... </h2>
             <p className="text">
-              &nbsp;&nbsp;&nbsp; Las tecnologias basicas que aprendi a manejar
-              son HTML, CSS y Javascript
+              &nbsp;&nbsp;&nbsp; Sin duda unas de las tecnologias que esta en
+              mis planes proximos para aprender son dos: Python y Solidity. Son
+              dos tecnologias muy distintas entre sí y para distintos fines, sin
+              embargo, tengo planes de introducirme en el aprendizaje de las
+              mismas muy pronto. <br />
+              &nbsp;&nbsp;&nbsp; Tambien me gustaria aprender otras tecnologias
+              como Angular, Vue, Next y Nest Js.
             </p>
           </div>
-          <img className="img" src={frontend} alt="Sin Imagen" />
-        </div>
-        
-         {/* Tech Skills Front-end */}
-         <div className="div-one">
-          <div className="div-one-box">
-            <h2> Basicas </h2>
-            <p className="text">
-              &nbsp;&nbsp;&nbsp; Las tecnologias basicas que aprendi a manejar
-              son HTML, CSS y Javascript
-            </p>
-          </div>
-          <img className="img" src={frontend} alt="Sin Imagen" />
+          <img className="img" src={prox} alt="Sin Imagen" />
         </div>
       </div>
     </Tec>
@@ -201,6 +201,16 @@ const Tec = styled.div`
       }
     }
 
+    .div-one-box {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      gap:1rem;
+    }
+
     .img {
       width: 40%;
       height: auto;
@@ -208,8 +218,8 @@ const Tec = styled.div`
     }
 
     .text {
-      width: 50%;
-      text-align: start;
+      width: 75%;
+      text-align: center;
       justify-content: start;
       align-items: flex-start;
     }

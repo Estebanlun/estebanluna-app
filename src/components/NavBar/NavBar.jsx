@@ -37,13 +37,7 @@ export default function NavBar() {
             {" "}
             Contacto{" "}
           </a>
-          <a
-            onClick={clicked ? handleClick : !clicked ? "" : handleClick}
-            href="/blog"
-          >
-            {" "}
-            Blog{" "}
-          </a>
+          
         </div>
         <div className="burguer">
           <BurguerButton clicked={clicked} handleClick={handleClick} />

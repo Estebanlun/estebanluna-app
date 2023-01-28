@@ -1,7 +1,7 @@
 import React from "react";
 import esteban from "./../../assets/images/esteban3.jpg";
-import esteban2 from "./../../assets/images/esteban5.png";
-// import image from "./../../assets/backgrounds/900.jpg";
+import esteban2 from "./../../assets/images/esteban6.png";
+
 import styled from "styled-components";
 
 export default function Banner() {
