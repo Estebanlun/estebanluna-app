@@ -21,7 +21,7 @@ export default function Techsk() {
           <div className="div-one-box">
             <h2> Basicas </h2>
             <p className="text">
-              &nbsp;&nbsp;&nbsp; Las tecnologias basicas que aprendi a manejar
+              &nbsp;&nbsp;&nbsp; Las tecnologias basicas que aprendí a manejar
               son HTML, CSS y Javascript.
             </p>
           </div>
@@ -33,8 +33,8 @@ export default function Techsk() {
           <div className="div-one-box">
             <h2> Front-End </h2>
             <p className="text">
-              &nbsp;&nbsp;&nbsp; Dentro del Front-end aprendi a manejar
-              freamworks y tecnologias como: React, Redux, Boostrap, TaiwindCSS,
+              &nbsp;&nbsp;&nbsp; Dentro del Front-end aprendí a manejar
+              freamworks y tecnologías como: React, Redux, Boostrap, TaiwindCSS,
               Sass, Less y un poco de ReactNative
             </p>
           </div>
@@ -46,7 +46,7 @@ export default function Techsk() {
           <div className="div-one-box">
             <h2> Back-End y Data Base</h2>
             <p className="text">
-              &nbsp;&nbsp;&nbsp; Las tecnologias que manejo dentro del backend
+              &nbsp;&nbsp;&nbsp; Las tecnologías que manejo dentro del backend
               son: NodeJs, Express y Sequelize.
               <br />
               &nbsp;&nbsp;&nbsp; Y en las bases de datos se manejar PosgessSQL,
@@ -59,10 +59,10 @@ export default function Techsk() {
         {/* Tech Skills Otras Herramientas */}
         <div className="div-two">
           <div className="div-one-box">
-            <h2> Otras Tecnologias </h2>
+            <h2> Otras tecnologías </h2>
             <p className="text">
-              &nbsp;&nbsp;&nbsp; Otras herramientas que manejo y no menos
-              importantes que las anteriores son: Git, GitHub, el gestor de
+              &nbsp;&nbsp;&nbsp; Otras herramientas que manejo, y no menos
+              importantes que las anteriores, son: Git, GitHub, el gestor de
               datos Npm, Postman, y un poco de Typescript
             </p>
           </div>
@@ -74,12 +74,10 @@ export default function Techsk() {
           <div className="div-one-box">
             <h2> Proximamente... </h2>
             <p className="text">
-              &nbsp;&nbsp;&nbsp; Sin duda unas de las tecnologias que esta en
-              mis planes proximos para aprender son dos: Python y Solidity. Son
-              dos tecnologias muy distintas entre sí y para distintos fines, sin
-              embargo, tengo planes de introducirme en el aprendizaje de las
-              mismas muy pronto. <br />
-              &nbsp;&nbsp;&nbsp; Tambien me gustaria aprender otras tecnologias
+              &nbsp;&nbsp;&nbsp; Sin duda unas de las tecnologías que esta en
+              mis planes próximos aprender son: Python y Solidity. Son
+              dos tecnologías. <br />
+              &nbsp;&nbsp;&nbsp; También me gustaría aprender otras
               como Angular, Vue, Next y Nest Js.
             </p>
           </div>

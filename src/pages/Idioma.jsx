@@ -18,10 +18,7 @@ export default function Idioma() {
           <div className="div-one-box">
             <h2> Ingles </h2>
             <p className="text">
-              &nbsp;&nbsp;&nbsp; Entiendo y manejo Ingles intermedio (B1). Aprendi en
-              el colegio durante 6 años. Ademas estudie el idioma por aparte en
-              una istitucion durante 2 años cuando era niño. Me gusta ver
-              peliculas, y jugar juegos en este idioma.
+              &nbsp;&nbsp;&nbsp; Nivel de ingles: Intermedio (B1)
             </p>
           </div>
           <img className="img" src={cert} alt="Sin Imagen" />
@@ -32,8 +29,7 @@ export default function Idioma() {
           <div className="div-one-box">
             <h2> Portugues </h2>
             <p className="text">
-              &nbsp;&nbsp;&nbsp; Manejo Portugues muy basico. Aprendi
-              en el colegio, durante 3 años.
+              &nbsp;&nbsp;&nbsp; Nivel de Portugues: Basico
             </p>
           </div>
           <img className="img" src={portu} alt="Sin Imagen" />

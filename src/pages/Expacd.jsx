@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import coachcert from "../assets/docs/coachingcert.PNG";
 import hcert from "../assets/docs/hcert.PNG";
+import siglo from "../assets/renders/siglo.png";
 
 export default function Explab() {
   return (
@@ -14,38 +15,49 @@ export default function Explab() {
       {/* Expositor de Experiencia */}
       <div className="div">
         {/* Primer Proyecto */}
+
+        <div className="div-one">
+          <p className="text">
+            &nbsp;&nbsp;&nbsp; Actualmente soy estudiante de la Carrera de
+            Contador de Ciencias económicas en la{" "}
+            <a className="link" href="https://21.edu.ar/">
+              Universidad Siglo21
+            </a>
+            Estoy cursando mi segundo año. Me encanta su sistema de aprendizaje,
+            y la facilidad con la que se puede acceder a todos los materiales.
+            Estoy ansioso de terminar mi carrera.
+          </p>
+          <img className="img" src={siglo} alt="No hay imagen" />
+        </div>
+
+        <div className="div-two">
+          <p className="text">
+            &nbsp;&nbsp;&nbsp;De{" "}
+            <a className="link" href="https://trascendercoaching.com/">
+              Trascender
+            </a>{" "}
+            destaco los "Hitos". Era lo que nos llevabamos de cada clase, un
+            hermoso grupo de compañeros, con los cuales aprendí ademas de
+            "coachear", el manejo de equipos, administración efectiva del
+            tiempo, gestión de emociones, preguntas poderosas, comunicación
+            asertiva, autoliderazgo y desarrollo personal, y el acompañar a
+            otros a lograrlo.
+          </p>
+          <img className="img" src={coachcert} alt="No hay imagen" />
+        </div>
+
         <div className="div-one">
           <p className="text">
             &nbsp;&nbsp;&nbsp;Estoy feliz de haber cursado en{" "}
             <a className="link" href="https://www.soyhenry.com/">
               Henry
             </a>
-            . Aprendi demasiadas cosas, quede super conforme con las
-            herramientas que me dieron, con el equipo de trabajo y amigos que me
-            brindo, con la relación que forme con ellos. La atención de los
-            profesores, la buena enseñanza, y la cantidad de recursos que me
-            dieron. El tiempo en el que estaba establecido el curso me parecio
-            el indicado para mi forma de aprendizaje.
+            . Adquirí muchos conocimientos nuevos, amigos, y un equipo con el
+            que cuento ante cualquier circunstancia dentro del desarrollo web.
+            Destaco en esta institución la calidez de los profesores, el nivel
+            de contenidos, y los recursos brindados.
           </p>
           <img className="img" src={hcert} alt="No hay imagen" />
-        </div>
-
-        <div className="div-two">
-          <p className="text">
-            &nbsp;&nbsp;&nbsp;Con respecto a mis estudios en{" "}
-            <a className="link" href="https://trascendercoaching.com/">
-              Trascender
-            </a>
-            . En todas las clases se podia aprender algo nuevo, le deciamos
-            "Hitos". Era lo que nos llevabamos de esa clase, Tuve la
-            oportuunidad de llevarme muchos hitos durante dos años. Con un
-            hermoso grupo de compañeros, en el cual aprendi a "coachear"
-            distintas situaciones, aprendi cosas como: El manejo de grupos, la
-            administracion del tiempo, manejo de emociones, como elaborar
-            preguntas poderosas, como comunicarme mejor, como crecer mejorar
-            personalmente, y ayudar a otros a logralo tambien.
-          </p>
-          <img className="img" src={coachcert} alt="No hay imagen" />
         </div>
       </div>
 
@@ -64,9 +76,9 @@ export default function Explab() {
             y Express en el Back-end y con una base de datos no SQL de Firebase.
             En el mismo, trabaje principalmente en el Front-end. Utilizamos Sass
             y otras herramientas para darle estilos. Este proyecto me sirvio
-            mucho para aprender a trabajar en equipo. Enrriquecio mi
-            comunicacion, y me ayudo a reafirmar mis conocimientos tecnicos. Te
-            dejo un video del proyecto competo asi lo veas. Entra a la app para
+            mucho para aprender a trabajar en equipo. Enriqueció mi
+            comunicación, y me ayudó a reafirmar mis conocimientos técnicos. Te
+            dejo un video del proyecto completo asi lo veas. Entra a la app para
             ver mas sobre{" "}
             <a className="link" href="https://dev-sky.vercel.app/">
               Dev-Sky
@@ -96,11 +108,11 @@ export default function Explab() {
             &nbsp;&nbsp;&nbsp;SPA (Single Page Application) sobre paises.
             Desarrollada con ReactJS, Redux en el Front-end, con NodeJS, Express
             y Sequalize en el Back-end. Y para la base de Datos utilice
-            PostgresSQL. En este proyecto aprendi mucho, ya que pase horas y
+            PostgresSQL. Este proyecto fue un verdadero desafío, pase horas y
             horas buscando soluciones para todos aquellos problemas que se
-            presentaban. Lo hice solo, algo que me dio confianza en mi mismo y
-            me permitio a afianzar mis tech skills y todo lo que aprendi durante
-            mi cursado. Aqui podes ver mas sobre Countries y por{" "}
+            presentaban. Lo hice solo, algo que me dio confianza y me permitio a
+            afianzar mis conocimientos tecnicos y todo lo aprendido durante mi
+            cursado. Aquí podes ver mas sobre Countries y por{" "}
             <a
               className="link"
               href="https://github.com/Estebanlun/PI-Estebanlun"
@@ -196,7 +208,7 @@ const Exp = styled.div`
       font-size: 1.5rem;
     }
   }
-  .vid{
+  .vid {
     width: 100%;
     height: 100%;
   }
@@ -243,7 +255,7 @@ const Exp = styled.div`
         padding: 2rem;
       }
     }
-    .vid{
+    .vid {
       width: 50%;
       height: 100%;
     }
@@ -282,7 +294,7 @@ const Exp = styled.div`
         height: 25rem;
       }
     }
-    
+
     .img {
       width: 50%;
       height: 100%;

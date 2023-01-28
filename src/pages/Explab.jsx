@@ -3,7 +3,6 @@ import styled from "styled-components";
 import video from "../assets/videos/work.mp4";
 import img from "../assets/images/picapiedra.jpg";
 
-
 export default function Explab() {
   return (
     <Exp>
@@ -14,20 +13,19 @@ export default function Explab() {
 
       {/* Expositor de Empleos */}
       <div className="div">
-
         {/* Primer trabajo */}
         <div className="div-one">
           <p className="text">
             &nbsp;&nbsp;&nbsp;Alejado del mundo de la programación y desarrollo,
             trabajo desde mayo 2020 en un estudio contable (Luna&2Asociados),
-            desarrollé tareas de: <br /> <br />
+            desarrollando tareas de: <br /> <br />
             &nbsp;&nbsp;&nbsp;Atención al cliente, Liquidación de sueldos y
             Cargas sociales, Liquidación de expensas, Administración de
             Consorcios, Liquidación de impuestos nacionales, provinciales y
             municipales, Manejo de caja, entre otros. <br />
-            &nbsp;&nbsp;&nbsp;En un buen ambiente laboral y con un muy buen
-            equipo de trabajo, aprendi muchas cosas relevantes relacionadas a el
-            trabajo en grupo, a ejecutar ordenes aficientemente, a ser honesto y
+            &nbsp;&nbsp;&nbsp;En un buen ambiente laboral y con un buen equipo
+            de trabajo, aprendi muchas cosas relevantes relacionadas al trabajo
+            en equipo, ejcutando ordenes eficientemente, siendo honesto y
             responsable en el area que me tocaba.
           </p>
           <video
@@ -43,18 +41,18 @@ export default function Explab() {
         {/* Segundo trabajo */}
         <div className="div-two">
           <p className="text">
-            &nbsp;&nbsp;&nbsp;Ademas, trabajé un mes (En temporada de ventas) en
-            un local comercial dedicado a la venta de juguetes, ropa, y juegos
-            didácticos llamado{" "}
+            &nbsp;&nbsp;&nbsp; Ademas, trabajé durante una temporada en un local
+            comercial dedicado a la venta de juguetes, ropa, y juegos
+            didácticos, llamado{" "}
             <a className="link" href="https://www.instagram.com/picapiedratuc/">
               Pica Piedra
             </a>
-            . Me ocupe de la caja, atención al cliente y los cobros. Tuve la
-            oportunidad de trabajar con un hermoso equipo, y aprender
-            habilidades nuevas como los cobros atraves de tarjetas de debito,
-            credito o transferencias. Aprendi a organizar y ordenar la caja de
-            ingresos y egresos, en un excel. Aprendi a crear y gestionar un
-            inventario de stock de juguetes. Y mejore mis habilidades en ventas.
+            . Me ocupe de la caja, atención al cliente y cobros. Tuve la
+            oportunidad de trabajar con un hermoso equipo, aprendiendo nuevas
+            competencias como los cobros a través de tarjetas de débito, crédito
+            o transferencias. Aporte en la organización y gestión de la
+            finanzas. Aprendí a crear y gestionar un inventario de stock de
+            juguetes utilizando excel. Y mejore mis habilidades en ventas.
           </p>
           <img className="img" src={img} alt="No se pudo cargar la imagen" />
         </div>
