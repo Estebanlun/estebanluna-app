@@ -246,10 +246,21 @@ const Tec = styled.div`
     .img {
       width: 30%;
       height: auto;
+      /* object-fit: fill; */
+
     }
+
     .text {
       width: 70%;
       font-size: 1.2rem;
     }
   }
+
+  @media (min-width: 1420px) {
+    .img {
+      width:20%
+    }
+  }
+
+
 `;

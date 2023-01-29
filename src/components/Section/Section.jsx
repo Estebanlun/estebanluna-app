@@ -47,7 +47,7 @@ const Sec = styled.div`
 
   @media (min-width: 768px) {
     display: grid;
-    grid-template-columns: repeat(2, 16rem);
+    grid-template-columns: auto auto;
     grid-gap: 20px;
     grid-auto-rows: minmax(10px, auto);
     min-height: 40rem;
@@ -58,10 +58,10 @@ const Sec = styled.div`
     padding: 2rem 0 5rem 0;
   }
   
-  @media (min-width: 1050px) {
-    grid-template-columns: repeat(3, 16rem);
+  @media (min-width: 1024px) {
+    grid-template-columns: auto auto auto;
   }
   @media (min-width: 1440px) {
-    grid-template-columns: repeat(5, 16rem);
+    grid-template-columns: auto auto auto auto;
   }
 `;

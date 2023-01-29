@@ -309,4 +309,10 @@ const Exp = styled.div`
       }
     }
   }
+
+  @media (min-width: 1420px) {
+    .img {
+      width:20%
+    }
+  }
 `;

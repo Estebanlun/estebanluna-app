@@ -179,4 +179,10 @@ const Idi = styled.div`
       font-size: 1.2rem;
     }
   }
+
+  @media (min-width: 1420px) {
+    .img {
+      width:20%
+    }
+  }
 `;

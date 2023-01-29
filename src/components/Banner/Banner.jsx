@@ -141,7 +141,17 @@ const Span = styled.span`
     .background {
       .divTwo {
         .image {
-          width: 25rem;
+          width: 35rem;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1420px) {
+    .background {
+      .divTwo {
+        .image {
+          width: 45rem;
         }
       }
     }
