@@ -20,7 +20,7 @@ export default function Section() {
       <Squere li="contact" img={contacto} title="Contacto" />
       <Squere li="lenguage" img={idioma} title="Idioma" />
       <Squere li="cv" img={cv} title="Currículum" />
-      <Squere li="more-projects" img={proyectos} title="Mas Proyectos" />
+      <Squere a="https://esteban-luna-projects.web.app/" img={proyectos} title="Mas Proyectos" />
     </Sec>
   );
 }

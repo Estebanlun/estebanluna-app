@@ -2,18 +2,38 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export default function Squere({ li, title, img, id }) {
+export default function Squere({ li, title, img, id, a }) {
   return (
     <Cuadro>
       <div className="cuadro">
-        <Link className="link" to={`/${li}`}>
+        {a ? (
+          <a className="link" href={a}>
+            <div id={id} className="img-container">
+              <img className="image" src={img} alt="No hay imagen" />
+            </div>
+            <div className="p-container">
+              <p className="parraf"> {title} </p>
+            </div>
+          </a>
+        ) : (
+          <Link className="link" to={`/${li}`}>
+            <div id={id} className="img-container">
+              <img className="image" src={img} alt="No hay imagen" />
+            </div>
+            <div className="p-container">
+              <p className="parraf"> {title} </p>
+            </div>
+          </Link>
+        )}
+
+        {/* <Link className="link" to={`/${a?a:li}`}>
           <div id={id} className="img-container">
             <img className="image" src={img} alt="No hay imagen" />
           </div>
           <div className="p-container">
             <p className="parraf"> {title} </p>
           </div>
-        </Link>
+        </Link> */}
       </div>
     </Cuadro>
   );
