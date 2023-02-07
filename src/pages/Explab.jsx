@@ -25,7 +25,7 @@ export default function Explab() {
             municipales, Manejo de caja, entre otros. <br />
             &nbsp;&nbsp;&nbsp;En un buen ambiente laboral y con un buen equipo
             de trabajo, aprendi muchas cosas relevantes relacionadas al trabajo
-            en equipo, ejcutando ordenes eficientemente, siendo honesto y
+            en equipo, ejecutando ordenes eficientemente, siendo honesto y
             responsable en el area que me tocaba.
           </p>
           <video
