@@ -25,7 +25,7 @@ export default function NavBar() {
           </a>
           <a
             onClick={clicked ? handleClick : !clicked ? "" : handleClick}
-            href="/more-projects"
+            href="https://esteban-luna-projects.web.app/"
           >
             {" "}
             Proyectos{" "}
